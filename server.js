@@ -253,7 +253,7 @@ io.on('connection', async socket => {
 
 
 /* ------------------------------------------------------- */
-const PORT = process.env.PORT || 8000
+const PORT = process.env.PORT || 8080
 ;
 const srv = server.listen(PORT, async () => {
     console.log(`Servidor http escuchando en el puerto ${srv.address().port}`)
